@@ -1,0 +1,13 @@
+{
+  "name": "ex288-app",
+  "version": "1.0.0",
+  "description": "App for OpenShift EX288 Git Build scenario",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "bash ./scripts/fetch-deps.sh"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
